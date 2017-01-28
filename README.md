@@ -3,4 +3,6 @@ This is my Algorithm Practice repo. Please feel free to add more questions and a
 
 ********* Happy Coding *********
 
-*Note: Questions are found online and from [CodeFights Challenges](https://codefights.com/challenges), and answers are mine.*
+*Note: Questions are found online and from [CodeFights Challenges](https://codefights.com/challenges)*
+
+*[Solutions](https://github.com/tkhuynh/algorithm_practice/tree/solution)*
