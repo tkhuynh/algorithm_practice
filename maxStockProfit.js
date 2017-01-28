@@ -27,27 +27,7 @@
 var stockPricesYesterday = [10, 20, 5, 17, 8, 19, 18, 6];
 
 function getMaxProfit(prices) {
-  if (prices.length < 2) {
-    return "There must be at least 2 stock prices";
-  } 
   
-  var currentLowestPrice = prices[0];
-  var currentBenefit = 0;
-  
-  for (var i = 1; i < prices.length; i++) {
-    if (prices[i] <= currentLowestPrice) {
-      currentLowestPrice = prices[i];
-    }
-    if (prices[i] - currentLowestPrice > currentBenefit) {
-      currentBenefit = prices[i] - currentLowestPrice;
-    }
-  }
-  
-  if (currentBenefit > 0) {
-    return currentBenefit;
-  } else {
-    return "Sorry, we couldn\'t make any profit.";
-  }
 }
 
 getMaxProfit(stockPricesYesterday); // => 14 (when buying at 5 and selling at 19)

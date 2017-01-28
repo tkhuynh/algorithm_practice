@@ -11,9 +11,7 @@
 =end
 
 def is_power_of_two?(num)
-	# checking if binary number of num is start with 1 only or with 1 following with numbers of 0 ONLY
-	check = num.to_s(2) =~ /^10*$/
-	return check == 0
+	
 end
 
 is_power_of_two?(-1) 	#=> false

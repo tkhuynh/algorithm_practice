@@ -33,22 +33,7 @@
 // 9 + 180 + 2700 + 4 = 2893
 
 function VanyaAndBook1s(n) {
-		// if n is one digits return n
-    if (n < 10) return n;
-
-    // if n is 2 digits or more, first get total digits of n
-    var digits = n.toString().length;
-    // count how many number we could have for example 90 number with 2 digits mean total of 180 number
-
-   	// count the toal number we could have on 1 to the largest number with less than 1 digit compared to total digits of n
-   	// for example if n = 100, we count from total of number from 1 to 99
-    count = 0;
-    for (var i = 1; i < digits; i++) {
-      count += 9 * Math.pow(10, i -1) * i;
-    }
-    // then we add the total numbers we count above with the total digit of the difference between n and the largest number with less than 1 digit compared to total digits of n
-    // for example if n = 100, the resule will be count + (100 - 99) * 3
-    return parseInt(count) + (n - Math.pow(10, digits - 1) + 1) * digits;
+		
 }
 
 console.log(VanyaAndBook1s(100)); // 192
