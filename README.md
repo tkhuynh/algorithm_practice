@@ -5,4 +5,4 @@ This is my Algorithm Practice repo. Please feel free to add more questions and a
 
 *Note: Questions are found online and from [CodeFights Challenges](https://codefights.com/challenges)*
 
-*[Solutions](https://github.com/tkhuynh/algorithm_practice/tree/solution)*
+*[Solutions](https://github.com/tkhuynh/algorithm_practice/tree/master/solutions)*
