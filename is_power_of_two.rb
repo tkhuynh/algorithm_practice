@@ -1,19 +1,7 @@
 # write a function name is_power_of_two? to check if any given number is a power of 2
 
-=begin
-	Logic
-	This could be done with recursive or loop. But to be more efficient, we can you binary number
-	Binary number of 1 or 2^0 is "1"
-	Binary number of 2 or 2^1 is "10"
-	Binary number of 4 or 2^2 is "100"
-	and so on..
-	So if the number is a power of 2, its binary number should be "1" or "1" following with numbers of "0" ONLY
-=end
-
 def is_power_of_two?(num)
-	# checking if binary number of num is start with 1 only or with 1 following with numbers of 0 ONLY
-	check = num.to_s(2) =~ /^10*$/
-	return check == 0
+	
 end
 
 is_power_of_two?(-1) 	#=> false
