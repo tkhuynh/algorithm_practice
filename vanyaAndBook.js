@@ -19,19 +19,6 @@
 // Constraints:
 // 1 ≤ n ≤ 10^8
 
-
-// logic to solve on paper/whiteboard
-// from 1-9 there are 9 numbers, each has 1 digit
-// from 10-99 there are 90 numbers, each has 2 digits
-// from 100-999 there are 900 numbers, each has 3 digits
-// and so on..
-// VanyaAndBook1s(1000) // => 2893 because
-// 1-9, 9 numbers with 1 digit >> total of 9 digits
-// 10-99, 90 numbers with 2 digits >> total of 90x2 = 180 digits
-// 100-999, 900 number with 3 digits >> total of 900x3 = 2700 digits
-// 1000, 1 number with 4 digits >> total of 1x4 = 4 digits
-// 9 + 180 + 2700 + 4 = 2893
-
 function VanyaAndBook1s(n) {
 		
 }

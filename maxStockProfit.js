@@ -13,17 +13,6 @@
 // getMaxProfit(stockPricesYesterday);
 // returns 6 (buying for $5 and selling for $11)
 
-/*
- Logic:
-
- - check if there are more than 1 stock price, if so show error
- - when there is more than 2 stock prices:
- 		take first stock price as current lowest
- 		check the next stock to see if we can make profit from there, if so, lowest stock stay the same, set best profit as the difference of the 2 stock prices. If not, that stock price will be the current lowest
- 		move on, if the next profit is greater then the last best profit, set best profit to this profit
-		so on until we finish checking to the last stock price
-*/
-
 var stockPricesYesterday = [10, 20, 5, 17, 8, 19, 18, 6];
 
 function getMaxProfit(prices) {

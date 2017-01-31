@@ -7,15 +7,8 @@
 // For x = 220 and y = 284, the output should be
 // friendly_numbers(x, y) = "Yes".
 
-// The proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, which add up to 284; and the proper divisors of 284 are 1, 2, 4, 71 and 142, which add up to 220.
-
-/*
-	Logic
-	First check if x === y, if so "No"
-	When x !== y
-	Find sum of all proper divisors of x and y. Note: according to the question, x is not a divisor of x
-	Then compare if um of all proper divisors of x equal y and um of all proper divisors of y equal x
-*/
+// The proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, which add up to 284; and the proper 
+// divisors of 284 are 1, 2, 4, 71 and 142, which add up to 220.
 
 function friendly_numbers(x, y) {
 
